@@ -16,7 +16,7 @@ public class StepDefs_GoogleHomepage {
 
 	@Quando("^eu abro a pagina inicial do Google$")
 	public void euAbroAPaginaInicialDoGoogle() throws Throwable {
-		googleHomepage.lauchBrowser();
+		googleHomepage.openGooleURL();
 	}
 
 	@Então("^eu verifico que a pagina mostra a caixa de pesquisa de texto$")

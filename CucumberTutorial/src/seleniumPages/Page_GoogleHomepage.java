@@ -8,12 +8,13 @@ import common.Page_BasePage;
 public class Page_GoogleHomepage extends Page_BasePage {
 
 	public void lauchBrowser() {
-
+		System.setProperty("webdriver.chrome.driver", "C://ChromeDriver//chromedriver_2.40.exe");
 		driver = new ChromeDriver();
 	}
 
 	public void openGooleURL() {
 		driver.get("http://www.google.com");
+		driver.manage().window().maximize();
 	}
 
 	public void checkSearchBoxIsDisplayed() {
@@ -40,9 +41,9 @@ public class Page_GoogleHomepage extends Page_BasePage {
 
 	public void checkImFeelingLuckyButtonIsDisplayed() {
 		if (driver.findElement(By.name("btnI")).isDisplayed()) {
-			System.out.println("O botão eu estou com sorte está visível");
+			System.out.println("O botão Eu estou com sorte está visível");
 		} else {
-			System.out.println("O botão eu estou com sorte está visível");
+			System.out.println("O botão Eu estou com sorte está visível");
 		}
 	}
 }
