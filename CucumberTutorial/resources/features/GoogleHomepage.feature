@@ -1,12 +1,12 @@
 #language: pt
 
-Funcionalidade: P·gina Inicial do Google
+Funcionalidade: Pagina Inicial do Google
 
-Essa feature verificar uma funcionalidade na p·gina inicial do Google.
+A feature verificar uma funcionalidade na pagina inicial do Google.
 
-Cen·rio: Verifica que o o elemento principla na p·gina inicial do Google est· visÌvel
-Dado eu inicio o Google Chrome 
-Quando eu abro a p·gina inicial do Google
-Ent„o eu verifico que a p·gina mostra a caixa de pesquisa de texto
-E a p·gina mostra o bot„o de pesquisa do Google
-E a p·gina mostra o bot„o eu estou com sorte 
+Cen√°rio: Verifica que o o elemento principla na pagina inicial do Google esta visivel
+	Dado eu inicio o Google Chrome 
+	Quando eu abro a pagina inicial do Google
+	Ent√£o eu verifico que a pagina mostra a caixa de pesquisa de texto
+	E a pagina mostra o botao de pesquisa do Google
+	E a pagina mostra o botao eu estou com sorte 
