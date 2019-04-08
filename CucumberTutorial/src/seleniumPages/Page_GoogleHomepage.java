@@ -46,4 +46,11 @@ public class Page_GoogleHomepage extends Page_BasePage {
 			System.out.println("O botão Eu estou com sorte está visível");
 		}
 	}
+
+	public void searchOnGoogleHomepage(String keyword) throws InterruptedException {
+
+		driver.findElement(By.name("q")).sendKeys(keyword);
+		Thread.sleep(2000);
+		driver.findElement(By.name("btnK")).click();
+	}
 }

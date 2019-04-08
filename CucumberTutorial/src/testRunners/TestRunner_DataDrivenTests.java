@@ -8,13 +8,12 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
-features="resources/features/DataDrivenTests.feature", 
-glue="stepDefinitions",
-monochrome = true,
-snippets   = SnippetType.CAMELCASE,
-dryRun     = false,
-strict     = false	)
+					features="resources/features/DataDrivenTests.feature", 
+					glue="stepDefinitions",
+					monochrome = true,
+					snippets   = SnippetType.CAMELCASE,
+					dryRun     = false,
+					strict     = false	)
 
 public class TestRunner_DataDrivenTests {
 
