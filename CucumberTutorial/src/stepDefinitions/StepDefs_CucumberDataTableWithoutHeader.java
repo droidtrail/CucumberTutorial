@@ -23,7 +23,8 @@ public class StepDefs_CucumberDataTableWithoutHeader extends Page_BasePage {
 
 	@Dado("^eu logo com as seguintes credenciais$")
 	public void euLogoComAsSeguintesCredenciais(DataTable dt) throws Throwable {
-
+//Also, since the data table parameters that we have are of type String, hence we will use List< String > to fetch the data
+ 
 		List<String> list = dt.asList(String.class);
 		System.out.println("Username - " + list.get(0));
 		System.out.println("Password - " + list.get(1));
