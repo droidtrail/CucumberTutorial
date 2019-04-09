@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 				 glue="stepDefinitions",
 				 monochrome = true,
 				 snippets   = SnippetType.CAMELCASE,
-				 dryRun     = false,
+				 dryRun     = true,
 				 strict     = false)
 
 public class TestRunner_CucumberDataTableWithHeader {

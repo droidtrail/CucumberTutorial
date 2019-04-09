@@ -5,10 +5,12 @@ import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import common.Page_BasePage;
 import cucumber.api.DataTable;
 import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
 
 public class StepDefs_CucumberDataTableWithHeader extends Page_BasePage {
 
@@ -24,9 +26,9 @@ public class StepDefs_CucumberDataTableWithHeader extends Page_BasePage {
 
 	@Dado("^clico na opção REGISTER$")
 	public void clico_na_opção_REGISTER() throws Throwable {
-		
-		driver.findElement(By.linkText("mercuryregister.php?osCsid=69b366315106a8a3be9d95857b2bcb59")).click();
-		
+
+		driver.findElement(By.cssSelector("td.mouseOut:nth-child(2) > a:nth-child(1)")).click();
+
 	}
 
 	@Dado("^preencho os campo para criação de uma nova conta$")
@@ -35,14 +37,23 @@ public class StepDefs_CucumberDataTableWithHeader extends Page_BasePage {
 		// a melhor maneira de acessar seu conteúdo é usando List <Map <K, V>>
 		// como mostrado abaixo
 		List<Map<String, String>> list = dt.asMaps(String.class, String.class);
-		System.out.println(list.get(0).get("First Name"));
-		System.out.println(list.get(0).get("Last Name"));
-		System.out.println(list.get(0).get("Phone"));
-		System.out.println(list.get(0).get("Email"));
-		System.out.println(list.get(0).get("Address"));
-		System.out.println(list.get(0).get("City"));
-		System.out.println(list.get(0).get("User Name"));
-		System.out.println(list.get(0).get("Password"));
+
+		driver.findElement(By.name("firstName")).sendKeys(list.get(0).get("First Name"));
+		driver.findElement(By.name("lastName")).sendKeys(list.get(0).get("Last Name"));
+		driver.findElement(By.name("phone")).sendKeys(list.get(0).get("Phone"));
+		driver.findElement(By.name("userName")).sendKeys(list.get(0).get("Email"));
+		driver.findElement(By.name("address1")).sendKeys(list.get(0).get("Address"));
+		driver.findElement(By.name("city")).sendKeys(list.get(0).get("City"));
+		driver.findElement(By.name("email")).sendKeys(list.get(0).get("User Name"));
+		driver.findElement(By.name("password")).sendKeys(list.get(0).get("Password"));
+		driver.findElement(By.name("confirmPassword")).sendKeys(list.get(0).get("Confirm Password"));
+		driver.findElement(By.name("register")).click();
+
+	}
+
+	@Então("^o sistema exibe a tela confirmando a inclusão$")
+	public void o_sistema_exibe_a_tela_confirmando_a_inclusão(DataTable arg1) throws Throwable {
+		Assert.assertTrue(true, "Thank you for registering.");
 	}
 
 }
