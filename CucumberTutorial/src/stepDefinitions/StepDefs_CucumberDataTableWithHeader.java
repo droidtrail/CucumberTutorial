@@ -14,6 +14,8 @@ import cucumber.api.java.pt.Então;
 
 public class StepDefs_CucumberDataTableWithHeader extends Page_BasePage {
 
+	Integer i;
+
 	@Dado("^que eu abro o site Mercury Tours$")
 	public void que_eu_abro_o_site_Mercury_Tours() throws Throwable {
 
@@ -38,16 +40,20 @@ public class StepDefs_CucumberDataTableWithHeader extends Page_BasePage {
 		// como mostrado abaixo
 		List<Map<String, String>> list = dt.asMaps(String.class, String.class);
 
-		driver.findElement(By.name("firstName")).sendKeys(list.get(0).get("First Name"));
-		driver.findElement(By.name("lastName")).sendKeys(list.get(0).get("Last Name"));
-		driver.findElement(By.name("phone")).sendKeys(list.get(0).get("Phone"));
-		driver.findElement(By.name("userName")).sendKeys(list.get(0).get("Email"));
-		driver.findElement(By.name("address1")).sendKeys(list.get(0).get("Address"));
-		driver.findElement(By.name("city")).sendKeys(list.get(0).get("City"));
-		driver.findElement(By.name("email")).sendKeys(list.get(0).get("User Name"));
-		driver.findElement(By.name("password")).sendKeys(list.get(0).get("Password"));
-		driver.findElement(By.name("confirmPassword")).sendKeys(list.get(0).get("Confirm Password"));
-		driver.findElement(By.name("register")).click();
+		for (i=0; i<list.size(); i++) {
+
+			driver.findElement(By.name("firstName")).sendKeys(list.get(0).get("First Name"));
+			driver.findElement(By.name("lastName")).sendKeys(list.get(0).get("Last Name"));
+			driver.findElement(By.name("phone")).sendKeys(list.get(0).get("Phone"));
+			driver.findElement(By.name("userName")).sendKeys(list.get(0).get("Email"));
+			driver.findElement(By.name("address1")).sendKeys(list.get(0).get("Address"));
+			driver.findElement(By.name("city")).sendKeys(list.get(0).get("City"));
+			driver.findElement(By.name("email")).sendKeys(list.get(0).get("User Name"));
+			driver.findElement(By.name("password")).sendKeys(list.get(0).get("Password"));
+			driver.findElement(By.name("confirmPassword")).sendKeys(list.get(0).get("Confirm Password"));
+			driver.findElement(By.name("register")).click();
+
+		}
 
 	}
 
