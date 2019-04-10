@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		 glue="stepDefinitions",
 		 monochrome = true,
 		 snippets   = SnippetType.CAMELCASE,
-		 dryRun     = true,
+		 dryRun     = false,
 		 strict     = false
 		)
 

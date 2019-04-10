@@ -65,5 +65,6 @@ public class StepDefs_DataTableWithHeaderAndMultipleRows extends Page_BasePage {
 	@Então("^fecha o navegador ao término do cadastro dos usuários$")
 	public void fechaONavegadorAoTérminoDoCadastroDosUsuários() throws Throwable {
 	    
+		fecharBrowser();
 	}
 }
