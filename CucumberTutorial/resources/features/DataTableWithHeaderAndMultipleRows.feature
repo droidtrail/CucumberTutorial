@@ -7,48 +7,105 @@ Cenário: Criar uma nova conta no site da Mercury Tours com vários usuários
 	Dado que eu abro o site Mercury Tours on-line
 	E clico na opção REGISTER.
 	E preencho os campo para criação de novas contas
-	|First Name |Last Name |Phone   |Email           |Address|City          |User Name|Password |Confirm Password|
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	|xpto5      |c3po5     |99998888|xpto5@gmail.com |Rua c  |Rio de Janeiro|xpto5     |leo32an25|leo32an25      |
-	|xpto6      |c3po6     |99998888|xpto6@gmail.com |Rua d  |Rio de Janeiro|xpto6     |leo32an26|leo32an26      |
-	|xpto7      |c3po7     |99998888|xpto7@gmail.com |Rua e  |Rio de Janeiro|xpto7     |leo32an27|leo32an27      |
-	|xpto8      |c3po8     |99998888|xpto8@gmail.com |Rua f  |Rio de Janeiro|xpto8     |leo32an28|leo32an28      |
-	|xpto9      |c3po9     |99998888|xpto9@gmail.com |Rua g  |Rio de Janeiro|xpto9     |leo32an29|leo32an29      |
-	|xpto10     |c3po10    |99998888|xpto10@gmail.com|Rua h  |Rio de Janeiro|xpto10    |leo32an30|leo32an30      |
-	
-	Então o sistema exibe em cada execução a confirmação da inclusão da conta
+|First Name 	|Last Name|Phone    |Email	          |Address|City	          |User Name|Password 	|Confirm Password|
+|xpto1	   		|c3po1		|99998881 |xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto1		|leo32an21	|leo32an21			 |	
+|xpto2	   		|c3po2		|99998892	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto2		|leo32an22	|leo32an22			 |
+|xpto3	   		|c3po3		|99998893	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto3		|leo32an23	|leo32an23			 |
+|xpto4	   		|c3po4		|99998900	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto4		|leo32an24	|leo32an24			 |
+|xpto5	   		|c3po5		|99998906	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto5		|leo32an25	|leo32an25			 |
+|xpto6	   		|c3po6		|99998912	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto6		|leo32an26	|leo32an26			 |
+|xpto7	   		|c3po7		|99998918	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto7		|leo32an27	|leo32an27			 |
+|xpto8	   		|c3po8		|99998924	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto8		|leo32an28	|leo32an28			 |
+|xpto9	   		|c3po9		|99998930	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto9		|leo32an29	|leo32an29			 |
+|xpto10	   		|c3po10		|99998936	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto10		|leo32an30	|leo32an30			 |
+|xpto11	   		|c3po11		|99998942	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto11		|leo32an31	|leo32an31			 |
+|xpto12	   		|c3po12		|99998948	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto12		|leo32an32	|leo32an32			 |
+|xpto13		 		|c3po13		|99998954	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto13		|leo32an33	|leo32an33			 |
+|xpto14		 		|c3po14		|99998960	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto14		|leo32an34	|leo32an34			 |
+|xpto15		 		|c3po15		|99998966	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto15		|leo32an35	|leo32an35			 |
+|xpto16		 		|c3po16		|99998972	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto16		|leo32an36	|leo32an36			 |
+|xpto17		 		|c3po17		|99998978	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto17		|leo32an37	|leo32an37			 |
+|xpto18		 		|c3po18		|99998984	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto18		|leo32an38	|leo32an38			 |
+|xpto19		 		|c3po19		|99998990	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto19		|leo32an39	|leo32an39			 |
+|xpto20		 		|c3po20		|99998996	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto20		|leo32an40	|leo32an40			 |
+|xpto21		 		|c3po21		|99999002	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto21		|leo32an41	|leo32an41			 |
+|xpto22		 		|c3po22		|99999008	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto22		|leo32an42	|leo32an42  		 |
+|xpto23		 		|c3po23		|99999014	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto23		|leo32an43	|leo32an43			 |
+|xpto24		 		|c3po24		|99999020	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto24		|leo32an44	|leo32an44			 |
+|xpto25		 		|c3po25		|99999026	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto25		|leo32an45	|leo32an45			 |
+|xpto26		 		|c3po26		|99999032	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto26		|leo32an46	|leo32an46			 |
+|xpto27		 		|c3po27		|99999038	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto27		|leo32an47	|leo32an47			 |
+|xpto28		 		|c3po28		|99999044	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto28		|leo32an48	|leo32an48			 |
+|xpto29		 		|c3po29		|99999050	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto29		|leo32an49	|leo32an49			 |
+|xpto30		 		|c3po30		|99999056	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto30		|leo32an50	|leo32an50			 |
+|xpto31		 		|c3po31		|99999062	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto31		|leo32an51	|leo32an51			 |	
+|xpto32		 		|c3po32		|99999068	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto32		|leo32an52	|leo32an52			 |
+|xpto33		 		|c3po33		|99999074	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto33		|leo32an53	|leo32an53			 |
+|xpto34		 		|c3po34		|99999080	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto34		|leo32an54	|leo32an54			 |
+|xpto35		 		|c3po35		|99999086	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto35		|leo32an55	|leo32an55			 |
+|xpto36		 		|c3po36		|99999092	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto36		|leo32an56	|leo32an56			 |
+|xpto37		 		|c3po37		|99999098	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto37		|leo32an57	|leo32an57			 |
+|xpto38		 		|c3po38		|99999104	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto38		|leo32an58	|leo32an58			 |
+|xpto39		 		|c3po39		|99999110	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto39		|leo32an59	|leo32an59			 |
+|xpto40		 		|c3po40		|99999116	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto40		|leo32an60	|leo32an60			 |
+|xpto41		 		|c3po41		|99999122	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto41		|leo32an61	|leo32an61			 |
+|xpto42		 		|c3po42		|99999128	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto42		|leo32an62	|leo32an62			 |
+|xpto43		 		|c3po43		|99999134	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto43		|leo32an63	|leo32an63			 |
+|xpto44		 		|c3po44		|99999140	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto44		|leo32an64	|leo32an64			 |
+|xpto45		 		|c3po45		|99999146	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto45		|leo32an65	|leo32an65			 |
+|xpto46		 		|c3po46		|99999152	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto46		|leo32an66	|leo32an66			 |
+|xpto47		 		|c3po47		|99999158	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto47		|leo32an67	|leo32an67			 |
+|xpto48		 		|c3po48		|99999164	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto48		|leo32an68	|leo32an68			 |
+|xpto49		 		|c3po49		|99999170	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto49		|leo32an69	|leo32an69			 |
+|xpto50		 		|c3po50		|99999176	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto50		|leo32an70	|leo32an70			 |
+|xpto51		 		|c3po51		|99999182	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto51		|leo32an71	|leo32an71			 |
+|xpto52		 		|c3po52		|99999188	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto52		|leo32an72	|leo32an72			 |
+|xpto53		 		|c3po53		|99999194	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto53		|leo32an73	|leo32an73			 |
+|xpto54		 		|c3po54		|99999200	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto54		|leo32an74	|leo32an74			 |
+|xpto55		 		|c3po55		|99999206	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto55		|leo32an75	|leo32an75			 |
+|xpto56		 		|c3po56		|99999212	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto56		|leo32an76	|leo32an76			 |
+|xpto57		 		|c3po57		|99999218	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto57		|leo32an77	|leo32an77			 |
+|xpto58		 		|c3po58		|99999224	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto58		|leo32an78	|leo32an78			 |
+|xpto59		 		|c3po59		|99999230	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto59		|leo32an79	|leo32an79			 |
+|xpto60		 		|c3po60		|99999236	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto60		|leo32an80	|leo32an80			 |
+|xpto61		 		|c3po61		|99999242	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto61		|leo32an81	|leo32an81			 |
+|xpto62		 		|c3po62		|99999248	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto62		|leo32an82	|leo32an82			 |
+|xpto63		 		|c3po63		|99999254	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto63		|leo32an83	|leo32an83			 |
+|xpto64		 		|c3po64		|99999260	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto64		|leo32an84	|leo32an84			 |
+|xpto65		 		|c3po65		|99999266	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto65		|leo32an85	|leo32an85			 |
+|xpto66		 		|c3po66		|99999272	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto66		|leo32an86	|leo32an86			 |
+|xpto67		 		|c3po67		|99999278	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto67		|leo32an87	|leo32an87			 |
+|xpto68		 		|c3po68		|99999284	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto68		|leo32an88	|leo32an88			 |
+|xpto69		 		|c3po69		|99999290	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto69		|leo32an89	|leo32an89			 |
+|xpto70		 		|c3po70		|99999296	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto70		|leo32an90	|leo32an90			 |
+|xpto71		 		|c3po71		|99999302	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto71		|leo32an91	|leo32an91			 |
+|xpto72				|c3po72		|99999308	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto72		|leo32an92	|leo32an92			 |
+|xpto73		 		|c3po73		|99999314	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto73		|leo32an93	|leo32an93			 |
+|xpto74		 		|c3po74		|99999320	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto74		|leo32an94	|leo32an94			 |
+|xpto75		 		|c3po75		|99999326	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto75		|leo32an95	|leo32an95			 |
+|xpto76		 		|c3po76		|99999332	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto76		|leo32an96	|leo32an96			 |
+|xpto77		 		|c3po77		|99999338	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto77		|leo32an97	|leo32an97			 |
+|xpto78		 		|c3po78		|99999344	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto78		|leo32an98	|leo32an98			 |
+|xpto79		 		|c3po79		|99999350	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto79		|leo32an99	|leo32an99			 |
+|xpto80		 		|c3po80		|99999356	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto80		|leo32an100	|leo32an100			 |
+|xpto81		 		|c3po81		|99999362	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto81		|leo32an101	|leo32an101			 |
+|xpto82	 	 		|c3po82		|99999368	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto82		|leo32an102	|leo32an102			 |
+|xpto83		 		|c3po83		|99999374	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto83		|leo32an103	|leo32an103			 |
+|xpto84		 		|c3po84		|99999380	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto84		|leo32an104	|leo32an104			 |
+|xpto85		 		|c3po85		|99999386	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto85		|leo32an105	|leo32an105			 |
+|xpto86		 		|c3po86		|99999392	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto86		|leo32an106	|leo32an106			 |
+|xpto87		 		|c3po87		|99999398	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto87		|leo32an107	|leo32an107			 |
+|xpto88		 		|c3po88		|99999404	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto88		|leo32an108	|leo32an108			 |
+|xpto89		 		|c3po89		|99999410	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto89		|leo32an109	|leo32an109			 |
+|xpto90		 		|c3po90		|99999416	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto90		|leo32an110	|leo32an110			 |
+|xpto91		 		|c3po91		|99999422	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto91		|leo32an111	|leo32an111			 |
+|xpto92		 		|c3po92		|99999428	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto92		|leo32an112	|leo32an112			 |
+|xpto93		 		|c3po93		|99999434	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto93		|leo32an113	|leo32an113			 |
+|xpto94		 		|c3po94		|99999440	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto94		|leo32an114	|leo32an114			 |
+|xpto95		 		|c3po95		|99999446	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto95		|leo32an115	|leo32an115			 |
+|xpto96		 		|c3po96		|99999452	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto96		|leo32an116	|leo32an116			 |
+|xpto97		 		|c3po97		|99999458	|xpto1@gmail.com	|Rua a	|Rio de Janeiro	|xpto97		|leo32an117	|leo32an117			 |
+|xpto98		 		|c3po98		|99999464	|xpto2@gmail.com	|Rua b	|Rio de Janeiro	|xpto98		|leo32an118	|leo32an118			 |
+|xpto99		 		|c3po99		|99999470	|xpto3@gmail.com	|Rua c	|Rio de Janeiro	|xpto99		|leo32an119	|leo32an119			 |
+Então o sistema exibe em cada execução a confirmação da inclusão da conta
+E fecha o navegador ao término do cadastro dos usuários

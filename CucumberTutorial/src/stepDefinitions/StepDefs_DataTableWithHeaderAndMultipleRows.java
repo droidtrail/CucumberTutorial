@@ -61,4 +61,9 @@ public class StepDefs_DataTableWithHeaderAndMultipleRows extends Page_BasePage {
 	public void o_sistema_exibe_em_cada_execução_a_confirmação_da_inclusão_da_conta() throws Throwable {
 
 	}
+	
+	@Então("^fecha o navegador ao término do cadastro dos usuários$")
+	public void fechaONavegadorAoTérminoDoCadastroDosUsuários() throws Throwable {
+	    
+	}
 }
