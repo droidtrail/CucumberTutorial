@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import common.Page_BasePage;
@@ -19,10 +18,7 @@ public class StepDefs_DataTableWithHeaderAndMultipleRows extends Page_BasePage {
 	@Dado("^que eu abro o site Mercury Tours on-line$")
 	public void que_eu_abro_o_site_Mercury_Tours_on_line() throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver", "C://ChromeDriver//chromedriver_2.40.exe");
-		driver = new ChromeDriver();
-		driver.get("http://newtours.demoaut.com/");
-		driver.manage().window().maximize();
+		abrirSite();
 
 	}
 
